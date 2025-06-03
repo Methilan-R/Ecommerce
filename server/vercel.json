@@ -1,0 +1,15 @@
+{
+    "version":2,
+<<<<<<< HEAD
+=======
+    "name": "node-js",
+>>>>>>> d2ffc20 (adding vercel)
+    "builds":[{
+        "src":"./server.js",
+        "use":"@vercel/node"
+    }], 
+    "routes":[{
+        "src":"/(.*)",
+        "dest":"/"
+    }]
+}
