@@ -1,9 +1,6 @@
 {
-    "version":2,
-<<<<<<< HEAD
-=======
-    "name": "node-js",
->>>>>>> d2ffc20 (adding vercel)
+    "version":2, 
+    "name": "node-js", 
     "builds":[{
         "src":"./server.js",
         "use":"@vercel/node"
